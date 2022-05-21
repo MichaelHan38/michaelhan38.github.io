@@ -68,10 +68,10 @@ Following the finalization of our first prototype, we evaluated its usability us
 
 After carrying out these changes, we came up with our second prototype, which is shown in Figure 3.
 <p float ="left" align = "center">
-  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="max-width:328px;margin-right:20px">
-  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="max-width:328px;margin-right:20px">  
-  <img src="/docs/assets/hci_project/p2/Clothing & Accessories.png" alt="prototype 2 clothing and accessory screen" style="max-width:328px">
-  <img src="/docs/assets/hci_project/p2/Hamburger Menu.png" alt="prototype 2 hamburger menu option" style="max-width:328px;margin-top:20px">
+  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="max-width:23%;margin-right:20px">
+  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="max-width:23%;margin-right:20px">  
+  <img src="/docs/assets/hci_project/p2/Clothing & Accessories.png" alt="prototype 2 clothing and accessory screen" style="max-width:23%;margin-right:20px">
+  <img src="/docs/assets/hci_project/p2/Hamburger Menu.png" alt="prototype 2 hamburger menu option" style="max-width:23%">
   <figcaption align = "center"><b>Figure 3. Screens from prototype 2</b></figcaption>
 </p>
 
@@ -128,8 +128,7 @@ In addition, users commented and identified the following flaws in prototype 2:
 
 Based on the questionnaire, we made the following modifications to the prototype. The resulting prototype is subsequently shown in Figure 4:
 - FAQ navigation button added to the top navbar
-- The “Computer,” “Phones,” and “Smart Homes” categories were removed and integrated as subcategories within the greater “Electronic” category
-- Icon for “Kitchen” category replaced with more fitting one
+- “Computer,” “Phones,” and “Smart Homes” categories were removed and integrated as subcategories within the greater “Electronic” category
 - Implemented tutorial pages for prototype onboarding
 - Added "add to cart" button to each item
 
@@ -137,8 +136,10 @@ Based on the questionnaire, we made the following modifications to the prototype
 <p float ="left" align = "center">
   <img src="/docs/assets/hci_project/p3/Home Screen.png" alt="prototype 3 homescreen" style="max-width:328px;margin-right:20px">
   <img src="/docs/assets/hci_project/p3/Categories.png" alt="prototype 3 category screen" style="max-width:328px;margin-right:20px">  
-  <img src="/docs/assets/hci_project/p3/Clothing & Accessories.png" alt="prototype 3 clothing and accessory screen" style="max-width:328px">
-  <img src="/docs/assets/hci_project/p3/Hamburger Menu.png" alt="prototype 3 hamburger menu option" style="max-width:328px;margin-top:20px">
+  <img src="/docs/assets/hci_project/p3/Electronics.png" alt="prototype 3 electronic subcategory screen" style="max-width:328px"> 
+  <img src="/docs/assets/hci_project/p3/Clothing & Accessories.png" alt="prototype 3 clothing and accessory screen" style="max-width:328px;margin-top:20px;margin-right:20px">
+  <img src="/docs/assets/hci_project/p3/Hamburger Menu.png" alt="prototype 3 hamburger menu option" style="max-width:328px;margin-top:20px;margin-right:20px">
+  <img src="/docs/assets/hci_project/p3/Tutorial.png" alt="prototype 3 tutorial" style="max-width:328px;margin-top:20px">
   <figcaption align = "center"><b>Figure 4. Screens from prototype 3</b></figcaption>
 </p>
 
