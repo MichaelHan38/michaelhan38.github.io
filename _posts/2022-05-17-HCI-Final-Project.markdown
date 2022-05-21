@@ -10,7 +10,7 @@ Technology is not always designed for the global stage. Those who struggle with 
 In both little and huge issues, technology has always been a fantastic tool to help us go by. At best, limiting access to such a powerful resource would inconvenience many people; at worst, such a limitation would worsen societal challenges of wealth, class, and equality. If technology was created with solely English speakers in mind, anyone who isn't fluent in the language would be unable to traverse the ever-evolving digital landscape and find opportunities. Ignoring to accommodate the design for non-English speakers would deprive them of their voice and ability to communicate with others. People being unable to access a critical resource will only contribute to our inequality.
 We try to make technology more accessible to those that have fallen behind by creating an alternative web interface that will assist non-English speakers in having a platform that they are more readily able to navigate and explore.
 
-## Initial User Research
+# Initial User Research
 In order to best serve our users and get a better understanding of their needs, we sent out a survey with the following questions that would impact the choices we made when implementing the design.
 - Are you currently enrolled at SFSU?
 - What language(s) are you conversant in? (Select all that apply)
@@ -22,7 +22,7 @@ In order to best serve our users and get a better understanding of their needs, 
 - What is lacking in current technology and how do you think technology can better address these issues?
 - May we contact you for a short follow-up study?
 
-# Findings
+## Findings
 The responses that we received from 16 respondents are summarized below:
 - Demographics:
  - 9 out of the 16 are students at SFSU
@@ -38,16 +38,17 @@ The responses that we received from 16 respondents are summarized below:
   - not understanding functions (3 respondents)
   - non-intuitive UI (4 respondents)
 
-## Wireframe
+# Wireframe
 Based on the data that we collected, some of the main criteria that need to be present in our web interface are: accessibility for non-native speakers, intuitive layout, clear menu options, and clear documentation for users to take full advantage of the web interface. we created a wireframe of a web interface that incorporated 
 In order to prioritize the language aspect of the problem, we used the design from an existing popular website, Tokopedia.com, which is an established e-commerce website in Indonesia. We did this so that we would not have to focus too much on the UI design. An initial rough wireframe sketch is shown in Figure 1.
 <div align ="center">
 <img src="/docs/assets/hci_project/wireframe.jpg" alt="Wireframe" style="max-width:60%">
 <figcaption align = "center"><b>Figure 1. Initial wireframe design</b></figcaption>
 </div>
-## Prototype Iterations
 
-# Initial prototype
+# Prototype Iterations
+
+## Initial prototype
 In order to streamline the prototyping process, we decided to make use of the popular prototype development tool Figma. Our initial plan was to base our prototype around Tokopedia.com, like we had with our wireframe, but we were unable to find an adequate, free Figma UI Kit to build off of. Instead, we completely switched gears and created an iPhone 13 e-commerce app based on the Shopee App, a popular Southeast Asian e-commerce service, using a readily available UI Kit. This prototype can be seen in Figure 2.
 <p float ="left" align = "center">
   <img src="/docs/assets/hci_project/p1/Home Screen.png" alt="prototype 1 homescreen" style="max-width:328px;margin-right:20px">
@@ -55,14 +56,16 @@ In order to streamline the prototyping process, we decided to make use of the po
   <img src="/docs/assets/hci_project/p1/Clothing & Accessories.png" alt="prototype 1 clothing and accessory screen" style="max-width:328px">  
   <figcaption align = "center"><b>Figure 2. Screens from prototype 1</b></figcaption>
 </p>
-# Second prototype	
+
+## Heuristic evaluation
 Following the finalization of our first prototype, we evaluated its usability using the Weinschenk and Barker 2000 classification. From our testing, we found 8 major heuristical problems, addressing 6 of them by implementing changes to our design, which are listed below:
-Improved contrast of menu elements
-Improved contrast of general translation subtitles
-Added additional translations for more confusing loan words
-Visualized  categories to reduce clutter
-Added Tutorial and FAQ resources
-Added missing navbar translations
+- Improved contrast of menu elements
+- Improved contrast of general translation subtitles
+- Added additional translations for more confusing loan words
+- Visualized  categories to reduce clutter
+- Added Tutorial and FAQ resources
+- Added missing navbar translations
+
 After carrying out these changes, we came up with our second prototype, which is shown in Figure 3.
 <p float ="left" align = "center">
   <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="max-width:328px;margin-right:20px">
@@ -71,7 +74,8 @@ After carrying out these changes, we came up with our second prototype, which is
   <img src="/docs/assets/hci_project/p2/Hamburger Menu.png" alt="prototype 2 hamburger menu option" style="max-width:328px;margin-top:20px">
   <figcaption align = "center"><b>Figure 3. Screens from prototype 2</b></figcaption>
 </p>
-# Third prototype	
+
+## Usability study
 To test the usability of our prototype, we asked 5 students from a different group in our HCI class to complete the tasks below without any support or direction:
 - Add a Harry Potter book to cart
 - Add a coffeemaker to cart
@@ -91,21 +95,29 @@ After completing these tasks, users were asked to fill out a Qualtrics survey wi
 - Additional comments regarding usefulness of ease of use
 - The most Positive and negative aspects of the prototype
 
-Through all the feedback we collected, we were able to find and address key problems on the usability of our prototype. Summary of the response that we collected is shown below in Table 1-3.
-<p align = "center">
-  <img src="/docs/assets/hci_project/qualtrics results/t1.png" alt="Table 1. Task difficulty" style="width:50%">
-  <figcaption align = "center"><b>Table 1. Task difficulty</b></figcaption>
-</p>
+Through all the feedback we collected, we were able to find and address key problems on the usability of our prototype. Summary of the response that we collected is shown in the following tables:
 
-<p align = "center">
-  <img src="/docs/assets/hci_project/qualtrics results/t2.png" alt="Table 2. Perceived usefulness" style="width:50%">  
-  <figcaption align = "center"><b>Table 2. Perceived usefulness</b></figcaption>
-</p>
+|     Finding the FAQ section               |     1.00    |     3.00    |     1.80    |     0.98    |     0.96    |     5    |
+|-------------------------------------------|-------------|-------------|-------------|-------------|-------------|----------|
+|     Adding a Harry Potter book to cart    |     1.00    |     3.00    |     1.80    |     0.75    |     0.56    |     5    |
+|     Adding a coffeemaker to cart          |     1.00    |     4.00    |     2.20    |     1.17    |     1.36    |     5    |
+|     Adding a drone to cart                |     1.00    |     5.00    |     2.40    |     1.50    |     2.24    |     5    |
+|     Adding a smart speaker to cart        |     1.00    |     3.00    |     1.80    |     0.75    |     0.56    |     5    |
 
-<p align = "center">
-  <img src="/docs/assets/hci_project/qualtrics results/t3.png" alt="Table 3. Perceived ease of use" style="width:50%">
-  <figcaption align = "center"><b>Table 3. Perceived ease of use</b></figcaption>
-</p>
+|     Finding the FAQ section               |     1.00    |     3.00    |     1.80    |     0.98    |     0.96    |     5    |
+|-------------------------------------------|-------------|-------------|-------------|-------------|-------------|----------|
+|     Adding a Harry Potter book to cart    |     1.00    |     3.00    |     1.80    |     0.75    |     0.56    |     5    |
+|     Adding a coffeemaker to cart          |     1.00    |     4.00    |     2.20    |     1.17    |     1.36    |     5    |
+|     Adding a drone to cart                |     1.00    |     5.00    |     2.40    |     1.50    |     2.24    |     5    |
+|     Adding a smart speaker to cart        |     1.00    |     3.00    |     1.80    |     0.75    |     0.56    |     5    |
+
+|     #    |     Field                                                                                    |     Minimum    |     Maximum    |     Mean    |     Std Deviation    |     Variance    |     Count    |
+|----------|----------------------------------------------------------------------------------------------|----------------|----------------|-------------|----------------------|-----------------|--------------|
+|     1    |     Learning to use the app was easy for me                                                  |     3.00       |     5.00       |     4.40    |     0.80             |     0.64        |     5        |
+|     2    |     I would find it easy to find what I needed in the app                                    |     3.00       |     5.00       |     4.00    |     0.89             |     0.80        |     5        |
+|     3    |     The app organization is clear and understandable                                         |     2.00       |     5.00       |     4.20    |     1.17             |     1.36        |     5        |
+|     4    |     I would find the app easy to use                                                         |     4.00       |     5.00       |     4.60    |     0.49             |     0.24        |     5        |
+|     5    |     Some components of the app was not intuitive and more   support information is needed    |     2.00       |     4.00       |     3.20    |     0.75             |     0.56        |     5        |
 
 In addition, users commented and identified the following flaws in prototype 2:
 - Difficult to find the FAQ section
