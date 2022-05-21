@@ -40,16 +40,20 @@ The responses that we received from 16 respondents are summarized below:
 ## Wireframe
 Based on the data that we collected, some of the main criteria that need to be present in our web interface are: accessibility for non-native speakers, intuitive layout, clear menu options, and clear documentation for users to take full advantage of the web interface. we created a wireframe of a web interface that incorporated 
 In order to prioritize the language aspect of the problem, we used the design from an existing popular website, Tokopedia.com, which is an established e-commerce website in Indonesia. We did this so that we would not have to focus too much on the UI design. An initial rough wireframe sketch is shown in Figure 1.
-
 <figure>
-<img src="https://github.com/MichaelHan38/michaelhan38.github.io/blob/574440a325d5c50939ae9da21a356b6725a9bc4e/_assets/hci_project/wireframe.JPG" alt="Wireframe" style="width:100%">
-<figcaption align = "center"><b>Fig.1 - Wireframe</b></figcaption>
+<img src="/docs/assets/hci_project/wireframe.jpg" alt="Wireframe" style="width:100%">
+<figcaption align = "center"><b>Figure 1. Initial wireframe design</b></figcaption>
 </figure>
 ## Prototype Iterations
 
 # Initial prototype
 In order to streamline the prototyping process, we decided to make use of the popular prototype development tool Figma. Our initial plan was to base our prototype around Tokopedia.com, like we had with our wireframe, but we were unable to find an adequate, free Figma UI Kit to build off of. Instead, we completely switched gears and created an iPhone 13 e-commerce app based on the Shopee App, a popular Southeast Asian e-commerce service, using a readily available UI Kit. This prototype can be seen in Figure 2.
-Figure 2: Prototype 1
+<p float ="left">
+  <img src="/docs/assets/hci_project/p1/Home Screen.png" alt="prototype 1 homescreen" style="width:100%">
+  <img src="/docs/assets/hci_project/p1/Categories.png" alt="prototype 1 category screen" style="width:100%">  
+  <img src="/docs/assets/hci_project/p1/Clothing & Accessories.png" alt="prototype 1 clothing and accessory screen" style="width:100%">  
+  <figcaption align = "center"><b>Figure 2. Screens from prototype 1</b></figcaption>
+</p>
 # Second prototype	
 Following the finalization of our first prototype, we evaluated its usability using the Weinschenk and Barker 2000 classification. From our testing, we found 8 major heuristical problems, addressing 6 of them by implementing changes to our design, which are listed below:
 Improved contrast of menu elements
@@ -59,7 +63,12 @@ Visualized  categories to reduce clutter
 Added Tutorial and FAQ resources
 Added missing navbar translations
 After carrying out these changes, we came up with our second prototype, which is shown in Figure 3.
-Figure 3: prototype 2
+<p float ="left">
+  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="width:100%">
+  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="width:100%">  
+  <img src="/docs/assets/hci_project/p2/Clothing & Accessories.png" alt="prototype 2 clothing and accessory screen" style="width:100%">
+  <figcaption align = "center"><b>Figure 3. Screens from prototype 2</b></figcaption>
+</p>
 # Third prototype	
 To test the usability of our prototype, we asked 5 students from a different group in our HCI class to complete the tasks below without any support or direction:
 - Add a Harry Potter book to cart
@@ -80,18 +89,22 @@ After completing these tasks, users were asked to fill out a Qualtrics survey wi
 - Additional comments regarding usefulness of ease of use
 - The most Positive and negative aspects of the prototype
 
-Through all the feedback we collected, we were able to find and address key problems on the usability of our prototype. Summary of the response that we collected is shown below in Table x.
+Through all the feedback we collected, we were able to find and address key problems on the usability of our prototype. Summary of the response that we collected is shown below in Table 1-3.
+<p float ="left">
+  <img src="/docs/assets/hci_project/qualtrics results/t1.png" alt="Table 1. Task difficulty" style="width:100%">
+  <img src="/docs/assets/hci_project/qualtrics results/t2.png" alt="Table 2. Perceived usefulness" style="width:100%">  
+  <img src="/docs/assets/hci_project/qualtrics results/t3.png" alt="Table 3. Perceived ease of use" style="width:100%">
+  <figcaption align = "center"><b>Figure 4. Screens from prototype 3</b></figcaption>
+</p>
 
-Based on the results, identified problems and associated fixes are listed below:
-
-Problems found:
+In addition, users commented and identified the following flaws in prototype 2:
 - Difficult to find the FAQ section
 - Some products could fit into multiple categories
 - Misrepresentation of some category icons
 - More support information could be added
 - Lack of confirmation upon adding to cart
 
-Changes Made:
+Based on the questionnaire, we made the following modifications to the prototype. The resulting prototype is subsequently shown in Figure 4:
 - FAQ navigation button added to the top navbar
 - The “Computer,” “Phones,” and “Smart Homes” categories were removed and integrated as subcategories within the greater “Electronic” category
 - Icon for “Kitchen” category replaced with more fitting one
@@ -99,9 +112,13 @@ Changes Made:
 - Added cart button to each item that prompts the user to confirm adding the selected item when clicked
 
  The resulting prototype is then shown on Figure 4
-Figure 4: prototype 3
+<p float ="left">
+  <img src="/docs/assets/hci_project/p3/Home Screen.png" alt="prototype 3 homescreen" style="width:100%">
+  <img src="/docs/assets/hci_project/p3/Categories.png" alt="prototype 3 category screen" style="width:100%">  
+  <img src="/docs/assets/hci_project/p3/Clothing & Accessories.png" alt="prototype 3 clothing and accessory screen" style="width:100%">
+  <figcaption align = "center"><b>Figure 4. Screens from prototype 3</b></figcaption>
+</p>
 
 
 # Future work
-wider initial research survey
-wider usability study
+We had trouble with reaching out to more people to participate in our initial study. Consequently, our findings regarding technological challenges that bilingual users and how to incorporate a design that addresses these issues are limited. We had the same issue with limited participation for our usability study as well, resulting in limited discovery of problematic parts of our prototype. Iinitial survey and usability study should be conducted in much larger scale to better capture day to day challenges that bilingual users face as well as the problems that are present in the prototype design. In addition, we suggest future study to be conducted around redesigning government website such as the website of the Interal Revenue Service, Department of Motor Vehicle, or U.S. Citizenship and Immigration Services. Research improvement for these websites could have bigger impact for bilingual populations in the U.S.
