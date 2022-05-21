@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: splash
 title:  "Bilingual Interface Design"
 date:   2022-05-17 21:06:33 -0700
 categories: jekyll update
@@ -40,18 +40,18 @@ The responses that we received from 16 respondents are summarized below:
 ## Wireframe
 Based on the data that we collected, some of the main criteria that need to be present in our web interface are: accessibility for non-native speakers, intuitive layout, clear menu options, and clear documentation for users to take full advantage of the web interface. we created a wireframe of a web interface that incorporated 
 In order to prioritize the language aspect of the problem, we used the design from an existing popular website, Tokopedia.com, which is an established e-commerce website in Indonesia. We did this so that we would not have to focus too much on the UI design. An initial rough wireframe sketch is shown in Figure 1.
-<figure>
-<img src="/docs/assets/hci_project/wireframe.jpg" alt="Wireframe" style="width:100%">
+<div align ="center">
+<img src="/docs/assets/hci_project/wireframe.jpg" alt="Wireframe" style="max-width:60%">
 <figcaption align = "center"><b>Figure 1. Initial wireframe design</b></figcaption>
-</figure>
+</div>
 ## Prototype Iterations
 
 # Initial prototype
 In order to streamline the prototyping process, we decided to make use of the popular prototype development tool Figma. Our initial plan was to base our prototype around Tokopedia.com, like we had with our wireframe, but we were unable to find an adequate, free Figma UI Kit to build off of. Instead, we completely switched gears and created an iPhone 13 e-commerce app based on the Shopee App, a popular Southeast Asian e-commerce service, using a readily available UI Kit. This prototype can be seen in Figure 2.
-<p float ="left">
-  <img src="/docs/assets/hci_project/p1/Home Screen.png" alt="prototype 1 homescreen" style="width:100%">
-  <img src="/docs/assets/hci_project/p1/Categories.png" alt="prototype 1 category screen" style="width:100%">  
-  <img src="/docs/assets/hci_project/p1/Clothing & Accessories.png" alt="prototype 1 clothing and accessory screen" style="width:100%">  
+<p float ="left" align = "center">
+  <img src="/docs/assets/hci_project/p1/Home Screen.png" alt="prototype 1 homescreen" style="max-width:328px;padding-right:20px">
+  <img src="/docs/assets/hci_project/p1/Categories.png" alt="prototype 1 category screen" style="max-width:328px;padding-right:20px">  
+  <img src="/docs/assets/hci_project/p1/Clothing & Accessories.png" alt="prototype 1 clothing and accessory screen" style="max-width:328px">  
   <figcaption align = "center"><b>Figure 2. Screens from prototype 1</b></figcaption>
 </p>
 # Second prototype	
@@ -63,10 +63,10 @@ Visualized  categories to reduce clutter
 Added Tutorial and FAQ resources
 Added missing navbar translations
 After carrying out these changes, we came up with our second prototype, which is shown in Figure 3.
-<p float ="left">
-  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="width:100%">
-  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="width:100%">  
-  <img src="/docs/assets/hci_project/p2/Clothing & Accessories.png" alt="prototype 2 clothing and accessory screen" style="width:100%">
+<p float ="left" align = "center">
+  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="max-width:328px;padding-right:20px">
+  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="max-width:328px;padding-right:20px">  
+  <img src="/docs/assets/hci_project/p2/Clothing & Accessories.png" alt="prototype 2 clothing and accessory screen" style="max-width:328px">
   <figcaption align = "center"><b>Figure 3. Screens from prototype 2</b></figcaption>
 </p>
 # Third prototype	
@@ -90,11 +90,19 @@ After completing these tasks, users were asked to fill out a Qualtrics survey wi
 - The most Positive and negative aspects of the prototype
 
 Through all the feedback we collected, we were able to find and address key problems on the usability of our prototype. Summary of the response that we collected is shown below in Table 1-3.
-<p float ="left">
-  <img src="/docs/assets/hci_project/qualtrics results/t1.png" alt="Table 1. Task difficulty" style="width:100%">
-  <img src="/docs/assets/hci_project/qualtrics results/t2.png" alt="Table 2. Perceived usefulness" style="width:100%">  
-  <img src="/docs/assets/hci_project/qualtrics results/t3.png" alt="Table 3. Perceived ease of use" style="width:100%">
-  <figcaption align = "center"><b>Figure 4. Screens from prototype 3</b></figcaption>
+<p align = "center">
+  <img src="/docs/assets/hci_project/qualtrics results/t1.png" alt="Table 1. Task difficulty" style="width:50%">
+  <figcaption align = "center"><b>Table 1. Task difficulty</b></figcaption>
+</p>
+
+<p align = "center">
+  <img src="/docs/assets/hci_project/qualtrics results/t2.png" alt="Table 2. Perceived usefulness" style="width:50%">  
+  <figcaption align = "center"><b>Table 2. Perceived usefulness</b></figcaption>
+</p>
+
+<p align = "center">
+  <img src="/docs/assets/hci_project/qualtrics results/t3.png" alt="Table 3. Perceived ease of use" style="width:50%">
+  <figcaption align = "center"><b>Table 3. Perceived ease of use</b></figcaption>
 </p>
 
 In addition, users commented and identified the following flaws in prototype 2:
@@ -112,10 +120,10 @@ Based on the questionnaire, we made the following modifications to the prototype
 - Added cart button to each item that prompts the user to confirm adding the selected item when clicked
 
  The resulting prototype is then shown on Figure 4
-<p float ="left">
-  <img src="/docs/assets/hci_project/p3/Home Screen.png" alt="prototype 3 homescreen" style="width:100%">
-  <img src="/docs/assets/hci_project/p3/Categories.png" alt="prototype 3 category screen" style="width:100%">  
-  <img src="/docs/assets/hci_project/p3/Clothing & Accessories.png" alt="prototype 3 clothing and accessory screen" style="width:100%">
+<p float ="left" align = "center">
+  <img src="/docs/assets/hci_project/p3/Home Screen.png" alt="prototype 3 homescreen" style="max-width:328px;padding-right:20px">
+  <img src="/docs/assets/hci_project/p3/Categories.png" alt="prototype 3 category screen" style="max-width:328px;padding-right:20px">  
+  <img src="/docs/assets/hci_project/p3/Clothing & Accessories.png" alt="prototype 3 clothing and accessory screen" style="max-width:328px">
   <figcaption align = "center"><b>Figure 4. Screens from prototype 3</b></figcaption>
 </p>
 
