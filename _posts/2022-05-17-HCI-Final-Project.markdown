@@ -5,7 +5,8 @@ date:   2022-05-17 21:06:33 -0700
 categories: jekyll update
 ---
 
-Technology is not always designed for the global stage. Those who struggle with English aren’t able to benefit from this digital age. For instance, classes that were conducted virtually due to the recent Coronavirus pandemic pose challenges for such populations. According to this source, “Non-English speakers face challenges in virtual learning” by Sarah Hofius Hall, refugee families in Scranton, Pennsylvania face issues with concurrently learning to use technology as well as English. Many of these refugees are worried about their ability to assist their children who must attend school virtually. According to the article, 9.3% of the students require English services while 25% of students live in a home where English is not the primary language.
+Technology is not always designed for the global stage. Those who struggle with English aren’t able to benefit from this digital age. For instance, classes that were conducted virtually due to the recent Coronavirus pandemic pose challenges for such populations. According to this source, “Non-English speakers face challenges in virtual learning” by Sarah Hofius Hall, refugee families in Scranton, Pennsylvania face issues with concurrently learning to use technology as well as English. Many of these refugees are worried about their ability to assist their children who must attend school virtually. According to the article, 9.3% of the students require English services while 25% of students live in a home where English is not the primary language.  
+
 In both little and huge issues, technology has always been a fantastic tool to help us go by. At best, limiting access to such a powerful resource would inconvenience many people; at worst, such a limitation would worsen societal challenges of wealth, class, and equality. If technology was created with solely English speakers in mind, anyone who isn't fluent in the language would be unable to traverse the ever-evolving digital landscape and find opportunities. Ignoring to accommodate the design for non-English speakers would deprive them of their voice and ability to communicate with others. People being unable to access a critical resource will only contribute to our inequality.
 We try to make technology more accessible to those that have fallen behind by creating an alternative web interface that will assist non-English speakers in having a platform that they are more readily able to navigate and explore.
 
@@ -49,8 +50,8 @@ In order to prioritize the language aspect of the problem, we used the design fr
 # Initial prototype
 In order to streamline the prototyping process, we decided to make use of the popular prototype development tool Figma. Our initial plan was to base our prototype around Tokopedia.com, like we had with our wireframe, but we were unable to find an adequate, free Figma UI Kit to build off of. Instead, we completely switched gears and created an iPhone 13 e-commerce app based on the Shopee App, a popular Southeast Asian e-commerce service, using a readily available UI Kit. This prototype can be seen in Figure 2.
 <p float ="left" align = "center">
-  <img src="/docs/assets/hci_project/p1/Home Screen.png" alt="prototype 1 homescreen" style="max-width:328px;padding-right:20px">
-  <img src="/docs/assets/hci_project/p1/Categories.png" alt="prototype 1 category screen" style="max-width:328px;padding-right:20px">  
+  <img src="/docs/assets/hci_project/p1/Home Screen.png" alt="prototype 1 homescreen" style="max-width:328px;margin-right:20px">
+  <img src="/docs/assets/hci_project/p1/Categories.png" alt="prototype 1 category screen" style="max-width:328px;margin-right:20px">  
   <img src="/docs/assets/hci_project/p1/Clothing & Accessories.png" alt="prototype 1 clothing and accessory screen" style="max-width:328px">  
   <figcaption align = "center"><b>Figure 2. Screens from prototype 1</b></figcaption>
 </p>
@@ -64,9 +65,10 @@ Added Tutorial and FAQ resources
 Added missing navbar translations
 After carrying out these changes, we came up with our second prototype, which is shown in Figure 3.
 <p float ="left" align = "center">
-  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="max-width:328px;padding-right:20px">
-  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="max-width:328px;padding-right:20px">  
+  <img src="/docs/assets/hci_project/p2/Home Screen.png" alt="prototype 2 homescreen" style="max-width:328px;margin-right:20px">
+  <img src="/docs/assets/hci_project/p2/Categories.png" alt="prototype 2 category screen" style="max-width:328px;margin-right:20px">  
   <img src="/docs/assets/hci_project/p2/Clothing & Accessories.png" alt="prototype 2 clothing and accessory screen" style="max-width:328px">
+  <img src="/docs/assets/hci_project/p2/Hamburger Menu.png" alt="prototype 2 hamburger menu option" style="max-width:328px;margin-top:20px">
   <figcaption align = "center"><b>Figure 3. Screens from prototype 2</b></figcaption>
 </p>
 # Third prototype	
@@ -117,13 +119,14 @@ Based on the questionnaire, we made the following modifications to the prototype
 - The “Computer,” “Phones,” and “Smart Homes” categories were removed and integrated as subcategories within the greater “Electronic” category
 - Icon for “Kitchen” category replaced with more fitting one
 - Implemented tutorial pages for prototype onboarding
-- Added cart button to each item that prompts the user to confirm adding the selected item when clicked
+- Added "add to cart" button to each item
 
  The resulting prototype is then shown on Figure 4
 <p float ="left" align = "center">
-  <img src="/docs/assets/hci_project/p3/Home Screen.png" alt="prototype 3 homescreen" style="max-width:328px;padding-right:20px">
-  <img src="/docs/assets/hci_project/p3/Categories.png" alt="prototype 3 category screen" style="max-width:328px;padding-right:20px">  
+  <img src="/docs/assets/hci_project/p3/Home Screen.png" alt="prototype 3 homescreen" style="max-width:328px;margin-right:20px">
+  <img src="/docs/assets/hci_project/p3/Categories.png" alt="prototype 3 category screen" style="max-width:328px;margin-right:20px">  
   <img src="/docs/assets/hci_project/p3/Clothing & Accessories.png" alt="prototype 3 clothing and accessory screen" style="max-width:328px">
+  <img src="/docs/assets/hci_project/p3/Hamburger Menu.png" alt="prototype 3 hamburger menu option" style="max-width:328px;margin-top:20px">
   <figcaption align = "center"><b>Figure 4. Screens from prototype 3</b></figcaption>
 </p>
 
