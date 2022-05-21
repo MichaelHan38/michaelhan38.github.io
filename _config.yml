@@ -27,7 +27,6 @@ twitter_username: N/A
 github_username:  michaelhan38
 
 # Build settings
-theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air" 
 plugins:
