@@ -120,5 +120,8 @@ Based on the questionnaire, we made the following modifications to the prototype
 </p>
 
 
-# Future work
+## Future work
 We had trouble with reaching out to more people to participate in our initial study. Consequently, our findings regarding technological challenges that bilingual users and how to incorporate a design that addresses these issues are limited. We had the same issue with limited participation for our usability study as well, resulting in limited discovery of problematic parts of our prototype. Iinitial survey and usability study should be conducted in much larger scale to better capture day to day challenges that bilingual users face as well as the problems that are present in the prototype design. In addition, we suggest future study to be conducted around redesigning government website such as the website of the Interal Revenue Service, Department of Motor Vehicle, or U.S. Citizenship and Immigration Services. Research improvement for these websites could have bigger impact for bilingual populations in the U.S.
+
+## Contributors
+Aaron Carlson, Michael Han, Ana Navarro, Nael Yun
